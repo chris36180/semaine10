@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Semaine 10</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> <!--lien vers le CDN de Bootstrap-->
+	<link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body class="container">
+	<audio  preload="auto" autoplay>
+    <source  src="xfile.mp3" type="audio/mpeg" />
+  </audio>
+    <p class="titre">Rick VS Alien</p>
+	
+	<div class=" row">
+		<div class="col-md-4">
+			<br/>
+			<div id="clicker">
+			<div id="affichage3"></div>
+				<img src="img/alien.png" alt="bouton" id="bouton" onmousedown="mouseDown()"onmouseup="mouseUp()"/>
+			</div>
+		</div>
+		
+		<div class="col-md-4 box ">
+				<p><button id="multiplicateur"class="btn btn-default btn-lg">X</button></p>
+				<div id="info1"></div>
+				<p><button id="autoclick" class="btn btn-default btn-lg">X</button></p>
+				<div id="info2"></div>
+		</div>
+		
+		<div class="col-md-4 box ">
+			
+			<p><button id="blaster" class="btn btn-default btn-lg">Acheter un blaster</button></p>
+			<p><img src="img/blastersmall.jpg" class="small-img">Prix gratuit puissance +1</p>
+			<p><img src="img/blastermedium.jpg" class="small-img">Prix 200 puissance +2</p>
+			<p><img src="img/blasterhigh.jpg" class="small-img">Prix 400 puissance +3</p>
+		
+		</div>
+	
+	</div>
+	
+	<div class="row">
+		<div class="col-md-4">
+	<div id="affichage3"></div>
+		</div>
+		<div class="col-md-4" >
+			<img src="img/blastersmall.jpg" alt="v1" id="figure1">
+			<img src="img/blastermedium.jpg" alt="v2" id="figure2"> 
+			<img src="img/blasterhigh.jpg" alt="v3" id="figure3">
+		</div>
+		<div class="col-md-4 box">
+			<div id="affichage1"></div>
+			<div id="affichage2"></div>
+			
+		</div>
+	
+	</div>
+
+
+<script src="js/script-2.js"></script>
+</body>
+
+</html>

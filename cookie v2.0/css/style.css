@@ -1,0 +1,108 @@
+@font-face {
+    font-family:'Arial';
+    font-style: normal;
+    font-weight: bold;
+}
+body { 
+	background-image:url(../img/fond1.jpg);
+	margin-top:-20px ;
+	background-repeat:no-repeat;
+}
+
+.titre {
+	margin:00px;
+	font-family:'Starwars' ;
+	font-size:90px ;
+	text-align:center;
+	color:red;
+}
+
+p { 
+	font-size:20px ;
+	margin-left:10px ;
+	text-align:center;
+	color:#CCCCCC ;
+}
+
+.col-md-4 { 
+	/* border:1px solid red ; */
+	height:330px ;
+}
+
+#affichage4,#affichage3, #info1, #info2 {
+	padding-left: 10px;
+	margin-bottom:10px ;
+	font-size: 20px;
+	color:#CCCCCC ;
+}
+
+#affichage1, #affichage2 {
+	margin-bottom:20px ;
+	font-size: 60px;
+	color:#33FF33;
+}
+
+.box {padding-top:20px ;}
+
+.button {
+	position:absolute ;
+	left:0 px ;}
+	
+#figure1, #figure2, #figure3 { 
+	position:absolute ;
+	right:0px;
+	bottom:0px;}
+	
+#info1, #info2, #info3 { 
+	position:relative ;
+	text-align:center ;
+	right:0px;
+	bottom:0px;}
+	
+.small-img {width:20% ; }
+
+.btn-default { 
+  color:#336600 ; 
+  background-color: #33FF33; 
+  border-color: red; 
+} 
+ 
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default:active, 
+.btn-default.active, 
+.open .dropdown-toggle.btn-default { 
+  color: #030303; 
+  background-color: #F7EB05; 
+  border-color: #050505; 
+} 
+ 
+.btn-default:active, 
+.btn-default.active, 
+.open .dropdown-toggle.btn-default { 
+  background-image: none; 
+} 
+ 
+.btn-default.disabled, 
+.btn-default[disabled], 
+fieldset[disabled] .btn-default, 
+.btn-default.disabled:hover, 
+.btn-default[disabled]:hover, 
+fieldset[disabled] .btn-default:hover, 
+.btn-default.disabled:focus, 
+.btn-default[disabled]:focus, 
+fieldset[disabled] .btn-default:focus, 
+.btn-default.disabled:active, 
+.btn-default[disabled]:active, 
+fieldset[disabled] .btn-default:active, 
+.btn-default.disabled.active, 
+.btn-default[disabled].active, 
+fieldset[disabled] .btn-default.active { 
+  background-color: #B39D0E; 
+  border-color: #050505; 
+} 
+ 
+.btn-default .badge { 
+  color: #B39D0E; 
+  background-color: #030303; 
+}
