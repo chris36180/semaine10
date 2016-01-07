@@ -61,7 +61,7 @@ Trouvez de nouvelles améliorations et améliorez votre CSS ! :)
 
 ##de plus :Au programme de cette semaine :
 
-Partie 2 : Modeler vos pages web
+#Partie 2 : Modeler vos pages web
 
 Manipuler le code HTML (partie 1/2)
 Manipuler le code HTML (partie 2/2)
