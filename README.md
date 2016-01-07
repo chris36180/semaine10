@@ -58,6 +58,7 @@ Pour cela, vous aurez besoin de setInterval pour exécuter automatiquement la m�
 Étape 12 : innovez
 
 Trouvez de nouvelles améliorations et améliorez votre CSS ! :)
+
  ## de plus :Au programme de cette semaine :
 
 Partie 2 : Modeler vos pages web
