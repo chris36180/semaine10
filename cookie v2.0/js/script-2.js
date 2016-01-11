@@ -42,7 +42,7 @@ function clic() {
     afficherScore();
 	afficheralien();
 	
-	if (afficheralien() === 0){
+	if (afficheralien() <=0){
 		alert("Vous avez vaincus l'alien!!!!!")
 	}else{}
 }
